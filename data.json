@@ -1,0 +1,124 @@
+{
+  "templates": [
+    {
+      "id": "alerta_temporal",
+      "nome": "Defesa Civil - Alerta de Temporal",
+      "conteudo": "[OCORRENCIA] [INTENSIDADE] na região de [CIDADE], espalhando-se por [BAIRRO] e [BAIRRO]. Não se abrigue sob árvores. Alerta válido até: [EXPIRA_DATA] às [EXPIRA_HORA]h."
+    },
+
+    {
+      "id": "alerta_alagamento",
+      "nome": "Defesa Civil - Alerta de Alagamento",
+      "conteudo": "Alerta de [OCORRENCIA]! Devido às fortes chuvas, a [RUA] encontra-se alagada, no bairro [BAIRRO]. Alerta válido até: [EXPIRA_DATA] às [EXPIRA_HORA]h."
+    },
+
+    {
+      "id": "transito_interdicao",
+      "nome": "Trânsito - Interdição de Via",
+      "conteudo": "Atenção motorista: [OCORRENCIA] na via principal de [CIDADE], altura do bairro [BAIRRO]. Tráfego [INTENSIDADE]. Previsão de liberação: [EXPIRA_DATA] às [EXPIRA_HORA]h."
+    },
+    {
+      "id": "manutencao_agua",
+      "nome": "Saneamento - Manutenção Programada",
+      "conteudo": "Manutenção na rede de abastecimento em [BAIRRO]. O fornecimento de água poderá ficar [INTENSIDADE] em [CIDADE]. Normalização prevista para [EXPIRA_DATA] às [EXPIRA_HORA]h."
+    },
+    {
+      "id": "campanha_saude",
+      "nome": "Saúde - Vacinação/Campanha",
+      "conteudo": "Campanha de Vacinação em [CIDADE]! Procure a UBS do bairro [BAIRRO] ou [BAIRRO]. Ação disponível até o dia [EXPIRA_DATA] às [EXPIRA_HORA]h. Previna-se!"
+    },
+    {
+      "id": "evento_municipal",
+      "nome": "Cultura - Evento no Município",
+      "conteudo": "Convite: Evento cultural na região de [BAIRRO]. Entrada [INTENSIDADE]. Início em [EXPIRA_DATA] às [EXPIRA_HORA]h. Participe com sua família!"
+    }
+  ],
+  "variaveis": {
+    "OCORRENCIA": [
+      { "texto": "Chuva", "genero": "f" },
+      { "texto": "Alagamento", "genero": "m" },
+      { "texto": "Acidente grave", "genero": "m" },
+      { "texto": "Queda de árvore", "genero": "f" }
+    ],
+    "INTENSIDADE": [
+      { "m": "Fraco", "f": "Fraca" },
+      { "m": "Moderado", "f": "Moderada" },
+      { "m": "Intenso", "f": "Intensa" },
+      { "m": "Gratuito", "f": "Gratuita" }
+    ],
+    "CIDADE": [
+      "Barueri",
+      "Caieiras",
+      "Campo Limpo Paulista",
+      "Francisco Morato",
+      "Franco da Rocha",
+      "Itu",
+      "Jundiaí",
+      "Osasco",
+      "Pirapora do Bom Jesus",
+      "Santana de Parnaíba",
+      "Várzea Paulista"
+    ],
+    "RUA": [
+      "Rua das Flores",
+      "Avenida Central",
+      "Estrada do Sol",
+      "Travessa dos Pássaros"
+    ],
+
+    "BAIRRO": [
+      "Água Fria",
+      "Cajamar Centro",
+      "Empresarial Anhanguera",
+      "Empresarial Mirim",
+      "Empresarial dos Eucaliptos",
+      "Guaturinho",
+      "Jardim Penteado",
+      "Mojuí",
+      "Ponunduva",
+      "Reserva do Ponunduva",
+      "Veneranda",
+      "Vila Abrão",
+      "Alpes de Cajamar",
+      "Alpes dos Araçás",
+      "Altos de Jordanésia",
+      "Bairro Gato Preto",
+      "Empresarial Bandeirantes",
+      "Empresarial do Bosque",
+      "Empresarial Gato Preto",
+      "Empresarial Paineira",
+      "Empresarial Paoletti",
+      "Jardim Adelaide",
+      "Jardim Maria Luíza",
+      "Jardim Santa Terezinha",
+      "Jardim São Pedro",
+      "Jordanésia (Centro)",
+      "Parque Panorama",
+      "Parque Residencial Cajamar",
+      "Parque São Roberto I",
+      "Parque São Roberto II",
+      "Roseira",
+      "Serra dos Cristais",
+      "Vila Ribeirão Pequeno",
+      "Bosque do Sol",
+      "Jardim Bela Vista",
+      "Jardim Carolina",
+      "Jardim Jurupari",
+      "Jardim Paraíso",
+      "Jardim Primavera",
+      "Jardim Santa Rita",
+      "Jardim Santana",
+      "Jardim São Luiz",
+      "Jardim Tenente Marques",
+      "Parque Maria Aparecida",
+      "Polvilho (Centro)",
+      "Portal dos Ipês I",
+      "Portal dos Ipês II",
+      "Portal dos Ipês III",
+      "Residencial Eldorado",
+      "Vila Mariana",
+      "Vila Planalto",
+      "Vila Tavares"
+    ]
+  }
+}
